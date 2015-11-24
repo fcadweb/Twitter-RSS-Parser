@@ -9,6 +9,7 @@ $query = array( // query parameters
     'trim_user' => 'false',
 	'exclude_replies' => !$user_include_replies,
 	'include_rts' => $user_include_rts,
+	'media_url' => $media_url,
 );
 
 include "functions.php";

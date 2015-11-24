@@ -1,8 +1,6 @@
-If you are using the v1 Twitter API to pull in user feeds, you'll notice that it has stopped working. This is because Twitter has turned off the v1 API, which breaks RSS/ATOM feeds. Version 1.1 of the API doesn't support RSS at all.
+Fork of Twitter RSS Parser. This copy of Twitter RSS Parser is intended to be used with the Drupal feeds module (https://www.drupal.org/project/feeds).
 
-api.twitter.com/1/statuses/user_timeline.rss?screen_name=XXXXXX <--- this no longer works
-
-The solution isn't hard, but it will take a bit of work.
+From: https://github.com/jdelamater99/Twitter-RSS-Parser
 
 TWITTER API Setup
 -------------

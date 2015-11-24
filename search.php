@@ -9,7 +9,8 @@ $query = array( // query parameters
 	'q' => $q,
 	'count' => $count,
 	'include_entities' => 'true',
-	'result_type' => $search_result_type
+	'media_url' => $media_url,
+	'result_type' => $search_result_type,
 );
 
 include "functions.php";
