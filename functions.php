@@ -38,6 +38,7 @@ $url .= "?".http_build_query($query);
 $url=str_replace("&amp;","&",$url); //Patch by @Frewuill
 $url = str_replace("%25", "%", $url);
 
+
 $oauth['oauth_signature'] = $signature; // don't want to abandon all that work!
 ksort($oauth); // probably not necessary, but twitter's demo does it
 
